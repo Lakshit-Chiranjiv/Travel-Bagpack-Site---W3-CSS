@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Fruktur&display=swap');
+
+*,body{
+    margin: 0;
+    padding: 0;
+}
+
+
+h1,h2,h3,h4,h5,h6:not(.head-name){
+    font-family: 'Fruktur', cursive;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    color: white;
+    font-family: 'Dongle', sans-serif;
+    font-size: 24px;
+}
+
+.navigation{
+    padding-top: 3px;
+}
+
+
+.navigation .head-name{
+    font-weight: 900;
+    letter-spacing: 3px;
+    font-size: 20px;
+    font-family: 'Fruktur', cursive;
+}
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    background: url(./../images/bagpack_hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.6);
+    text-align: center;
+}
